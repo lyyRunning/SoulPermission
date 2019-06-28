@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_height="match_parent"
+        tools:ignore="HardcodedText"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:text="compare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="before"
+            android:text="Before（之前使用权限)"/>
+
+    <Button
+            android:textAllCaps="false"
+            android:onClick="after"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="After（之后使用权限）"/>
+
+    <TextView
+            android:text="API 的引导使用"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:textAllCaps="false"
+            android:onClick="apiGuideActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="在Activity中使用"/>
+    <Button
+            android:textAllCaps="false"
+            android:onClick="apiGuideAppComponentActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="在AppComponentActivity中使用"/>
+
+    <Button
+            android:textAllCaps="false"
+            android:onClick="fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="在Fragment中使用"/>
+
+    <Button
+            android:textAllCaps="false"
+            android:onClick="supportFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="在SupportFragment中使用"/>
+
+    <TextView
+            android:text="common usage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:textAllCaps="false"
+            android:onClick="fragmentWithViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="在ViewPagerFragment中使用"/>
+
+</LinearLayout>

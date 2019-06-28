@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText">
+
+        <Button
+                android:id="@+id/checkSinglePermission"
+                android:textAllCaps="false"
+                android:gravity="start|center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="检查权限"/>
+        <Button
+                android:id="@+id/requestSinglePermission"
+                android:textAllCaps="false"
+                android:gravity="start|center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="一个权限"/>
+
+        <Button
+                android:id="@+id/requestPermissions"
+                android:textAllCaps="false"
+                android:gravity="start|center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="一系列权限"/>
+
+        <Button
+                android:id="@+id/requestSinglePermissionWithRationale"
+                android:textAllCaps="false"
+                android:gravity="start|center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" for one permission with rationale"/>
+
+        <Button
+                android:id="@+id/checkNotification"
+                android:textAllCaps="false"
+                android:gravity="start|center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="checkSpecial[Notification]"/>
+
+        <Button
+                android:id="@+id/checkAndRequestNotification"
+                android:textAllCaps="false"
+                android:gravity="start|center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="for Special[Notification]"/>
+
+        <Button
+                android:id="@+id/checkAndRequestSystemAlert"
+                android:textAllCaps="false"
+                android:gravity="start|center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="for Special[SystemAlert]"/>
+
+        <Button
+                android:id="@+id/checkAndRequestUnKnownSource"
+                android:textAllCaps="false"
+                android:gravity="start|center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="for Special[InstallUnknownSource]"/>
+
+        <Button
+                android:id="@+id/goApplicationSettings"
+                android:textAllCaps="false"
+                android:gravity="start|center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="去项目设置"/>
+
+        <Button
+                android:id="@+id/getTopActivity"
+                android:textAllCaps="false"
+                android:gravity="start|center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="顶部 Activity"/>
+
+    </LinearLayout>
+</ScrollView>
